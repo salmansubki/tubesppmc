@@ -18,7 +18,7 @@
 
 int main(){
 
-  #ifdef TEST_CASE_1
+/*  #ifdef TEST_CASE_1
   arrKata arr_kata;
   initializeArrKata(&arr_kata);
 
@@ -96,7 +96,7 @@ int main(){
 
   freeDictionary(dict);
   #endif
-
+*/
 
   #ifdef TEST_CASE_4
   int n = 2;
@@ -137,6 +137,7 @@ int main(){
   freeDictionary(dict);
   #endif
 
+ /*
   #ifdef TEST_CASE_5
   arrKata *dict;
   initializeDictionary(dict);
@@ -144,6 +145,6 @@ int main(){
 
   #endif
 
-
+*/
   return 0;
 }
